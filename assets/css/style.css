@@ -129,7 +129,7 @@ body {
 .hero-section {
     height: 80vh;
     padding: 50px 20px;
-    background-color: rgba(240, 248, 255, 0.384);
+    /* background-color: rgba(240, 248, 255, 0.384); */
 }
 
 .hero-content {
@@ -154,7 +154,7 @@ body {
 
 
 .about-section {
-    background-color: rgb(68, 68, 68);
+    /* background-color: rgb(68, 68, 68); */
     height: 100vh;
 }
 
