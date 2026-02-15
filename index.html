@@ -8,61 +8,65 @@
    
 </head>
 <body>
-    <div class="container1">
-        <div class="gradient"></div>
+    <header class="header">
+        <nav class="navbar" id="navbar">
+            <button class="menu-burger" id="menu-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-        <header class="header">
-            <nav class="navbar" id="navbar">
-                <button class="menu-burger" id="menu-burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+            <div class="logo logo-desktop">
+                <a href="">Logo</a>
+            </div>
 
-                <div class="logo logo-desktop">
-                    <a href="">Logo</a>
-                </div>
+            <ul class="menu-items" id="menu-items">
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Tours</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Reviews</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
 
-                <ul class="menu-items" id="menu-items">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Tours</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Reviews</a></li>
-                    <li><a href="">Contacts</a></li>
-                </ul>
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376C296.3 401.1 253.9 416 208 416 93.1 416 0 322.9 0 208S93.1 0 208 0 416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+        </nav>
+    </header>
 
-                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376C296.3 401.1 253.9 416 208 416 93.1 416 0 322.9 0 208S93.1 0 208 0 416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-            </nav>
-            
-        </header>
+    <div class="overlay" id="overlay"></div>
+    
+    <!-- Sections -->
+    <div class="shadow-wrapper"></div>
 
-        <div class="overlay" id="overlay"></div>
+    <section class="section hero-section">
 
-        <section class="section hero-section">
+        <div class="container hero-container">
             <div class="hero-content">
                 <h1 class="hero-title">TIME TO TRAVEL</h1>
                 <p class="hero-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam harum commodi ex architecto laudantium laboriosam perferendis magnam nemo culpa vero, cum accusamus sit tenetur quos! Est voluptate illo laboriosam non!</p>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
+
+    <section class="section about-section">
+        <h2>About us</h2>
+        <div class="cards"></div>
+           
+    </section>
 
 
-    <div class="container2">
-        <main class="main">
-            <section class="section about-section">
-                <h2>About us</h2>
-                <div class="cards">
 
-                </div>
-            </section>
-        </main>
-    </div>
 
-     <footer class="footer">
+
+
+
+
+
+
+    <footer class="footer">
         <!-- <a href="https://www.flaticon.com/br >ícones criados por Freepik - Flaticon</a> -->
-         <div class="social-medias">
-             <a href="" target="_blank">
+        <div class="social-medias">
+            <a href="" target="_blank">
                 <img src="assets/images/icons/facebook(150x150).png" alt="Facebook logo">
             </a>
              <a href="" target="_blank">
@@ -74,9 +78,9 @@
              <a href="" target="_blank">
                 <img src="assets/images/icons/X(150x150).png" alt="X logo">
             </a>
-         </div>
-     </footer>
+        </div>
+    </footer>
 
-     <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
