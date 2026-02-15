@@ -21,8 +21,9 @@ body {
 }
 
 .container {
+    
     height: 100%;
-    background-image: url(/assets/images/back-section\ 1600-900.jpg) ;
+    background-image: url(/assets/images/banner-hero1920x1080.jpg);
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,12 +153,10 @@ body {
 
 /* SECTIONS */
 
-
 .about-section {
     /* background-color: rgb(68, 68, 68); */
     height: 100vh;
 }
-
 
 /* FOOTER */
 
