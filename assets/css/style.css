@@ -38,6 +38,7 @@ h1, h2, p, span {
     z-index: 900;
     width: 100%;
     background-color: var(--cor_1);
+    box-shadow: 0 3px 3px rgb(0, 0, 0, 0.3);
 }
 
 .header-content {
@@ -215,6 +216,12 @@ h1, h2, p, span {
 
 }
 
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hero-title {
     text-align: center;
     font-size: clamp(1.5rem, 10vw, 3.5rem);
@@ -230,7 +237,7 @@ h1, h2, p, span {
 
 .hero-paragraph {
     font-size: clamp(1rem, 2vw, 1.2rem);
-    max-width: 80%;
+    max-width: 90%;
     line-height: 1.3rem;
     text-align: center;
 }
@@ -267,6 +274,7 @@ h1, h2, p, span {
 
 .main {
     width: 100%;
+    min-height: 100vh;
     background-image: url("../images/sand.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -441,22 +449,24 @@ h1, h2, p, span {
     z-index: 2;
 }
 
-.about-content {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    text-align: center; 
-    z-index: 5;  
-    width: 90%;
-}
-
+.about-content, 
 .about-content-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 30px;
+    
 }
 
+.about-content {
+    z-index: 5;  
+    width: 90%;
+    max-width: 1300px;
+}
+
+.about-content-container {
+    align-items: center; 
+    text-align: left; 
+}
 
 
 .about-content-container img {
@@ -467,6 +477,7 @@ h1, h2, p, span {
     box-shadow: 0px 0px 13px rgb(0, 82, 85);
     object-fit: cover;
     border-radius: 10px;
+
 }
 
 .about-title {
@@ -474,28 +485,19 @@ h1, h2, p, span {
     font-size: 2rem;
 }
 
-.about-content-container p {
-    font-size: 1.2rem;
-    width: 100%;
-    max-width: 700px;
-    font-weight: lighter;  
-}
-
-.about-content-container p:nth-child(1){
+.about-subtitle {
     color: var(--cor_1);
     font-size: 2rem;
     font-weight: normal;
-    
-}
-.about-content-container p:nth-child(2){
-    font-size: 1rem;
-    line-height: 1.8rem;
-      
 }
 
-.about-content-container p:nth-child(4){
-    color: var(--cor_1);
+.about-text {
+    font-size: clamp(0.8rem, 80%, 1rem);
+    width: 100%;
+    max-width: 700px;
 }
+
+/* ============== GALLERY ================ */
 
 .gallery-section {
     width: 100%;
